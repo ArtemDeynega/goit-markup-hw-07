@@ -13,7 +13,7 @@ html {
       box-sizing: inherit;
 }
 
-:root {
+/* :root {
       --hero-background-color: rgba(47, 48, 58, 0.4);
       --primary-text-color: #212121;
       --background-footer-color: #2F303A;
@@ -41,9 +41,9 @@ html {
             0px 2px 2px rgba(0, 0, 0, 0.12);
       --backdrop-color: rgba(0, 0, 0, 0.5);
 
-}
+} */
 
-.body {
+/* .body {
       font-family: Roboto;
       font-size: 20px;
       background-color: var(--primary-white-color);
@@ -61,15 +61,15 @@ ul {
       list-style: none;
       padding: 0;
       margin: 0;
-      c
+      
 }
 
 img {
       display: block;
       max-width: 100%;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
       position: absolute !important;
       clip: rect(1px 1px 1px 1px);
       /* IE6, IE7 */
@@ -79,21 +79,21 @@ img {
       height: 1px !important;
       width: 1px !important;
       overflow: hidden;
-}
+} */
 
 
 /* =======CONTAINER====== */
 
-.container {
+/* .container {
       width: 1200px;
       padding-left: 15px;
       padding-right: 15px;
       margin: 0 auto;
 
-}
+} */
 
 /* =======Header====== */
-.header {
+/* .header {
       padding-top: 32px;
       padding-bottom: 0;
       border-bottom: 1px solid var(--secondary-background-color);
@@ -117,9 +117,9 @@ img {
 
 
 
-}
+} */
 
-.header .address {
+/* .header .address {
       margin-left: auto;
       margin-right: 30px;
 
@@ -147,49 +147,7 @@ img {
       margin-right: 30px;
 }
 
-.section-aside-list::before {
-      content: "";
-      display: block;
-      height: 120px;
-      width: 270px;
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-color: #F5F4FA;
-      ;
-      background-position: center;
 
-}
-
-.icon-antenna::before {
-      background-image: url(../image/aside/antenna1.svg);
-      background-size: 70px;
-
-}
-
-.icon-clock::before {
-      background-image: url(../image/aside/clock1.svg);
-      background-size: 70px;
-}
-
-.icon-diagram::before {
-      background-image: url(../image/aside/diagram1.svg);
-      background-size: 70px;
-
-}
-
-.icon-astronaut::before {
-      background-image: url(../image/aside/astronaut1.svg);
-      background-size: 70px;
-
-}
-
-.section-aside .section-aside-list {
-
-      width: 270px;
-      flex-wrap: wrap;
-
-
-}
 
 .adress-icon {
       fill: var(--adress-icon);
@@ -201,10 +159,10 @@ img {
 .address-mail:hover .adress-icon,
 .address-mail:focus .adress-icon {
       fill: var(--accent-color);
-}
+} */
 
 /* ================= logo =============================*/
-.logo {
+/* .logo {
       color: var(--primary-text-color);
       font-family: Raleway;
 
@@ -220,9 +178,9 @@ img {
 
 .logo-accent {
       color: var(--accent-color);
-}
+} */
 
-.address-mail,
+/* .address-mail,
 .address-tel {
       display: inline-block;
       padding-bottom: 32px;
@@ -287,13 +245,9 @@ img {
       background-color: var(--accent-color);
 
 
-}
+} */
 
-.list {
-      margin: 0px;
-      padding: 0px;
-      list-style: none;
-}
+
 
 
 
@@ -356,7 +310,7 @@ img {
 
 
 /* ================ Section-Aside =============== */
-.section-aside-subtitle {
+/* .section-aside-subtitle {
       padding-top: 30px;
       font-size: 14px;
       font-weight: 700;
@@ -462,18 +416,61 @@ img {
       margin-right: 30px;
 
 }
+.section-aside-list::before {
+      content: "";
+      display: block;
+      height: 120px;
+      width: 270px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-color: #F5F4FA;
+      ;
+      background-position: center;
+
+} */
+
+/* .icon-antenna::before {
+      background-image: url(../image/aside/antenna1.svg);
+      background-size: 70px;
+
+}
+
+.icon-clock::before {
+      background-image: url(../image/aside/clock1.svg);
+      background-size: 70px;
+}
+
+.icon-diagram::before {
+      background-image: url(../image/aside/diagram1.svg);
+      background-size: 70px;
+
+}
+
+.icon-astronaut::before {
+      background-image: url(../image/aside/astronaut1.svg);
+      background-size: 70px;
+
+} */
+
+/* .section-aside .section-aside-list {
+
+      width: 270px;
+      flex-wrap: wrap;
+
+
+} */
 
 /* ================ Section Comand============ */
 
-.section-portfolio,
+/* .section-portfolio,
 .section {
       padding-top: 94px;
       padding-bottom: 94px;
       margin-bottom: 0px;
       margin-top: 0px;
-}
+} */
 
-.section.command {
+/* .section.command {
       padding-top: 94px;
       padding-bottom: 94px;
       background-color: var(--secondary-background-color);
@@ -541,9 +538,9 @@ img {
       padding-right: 32px;
       justify-content: center;
       align-items: center;
-}
+} */
 
-.comands-link-item {
+/* .comands-link-item {
       width: 44px;
       height: 44px;
       display: flex;
@@ -572,21 +569,21 @@ img {
 
 .command-social-icon {
       fill: var(--border-clients-color);
-}
+} */
 
 
 /* =============== Section Receprion ================== */
-.section.receprion {
+/* .section.receprion {
       width: 1170px;
       padding-top: 0px;
       padding-bottom: 94px;
       margin: 0 auto;
 
-}
+} */
 
 /* ====================== Botton ================ */
 
-.button-nav {
+/* .button-nav {
       display: flex;
       justify-content: center;
 
@@ -594,7 +591,6 @@ img {
 
 }
 
-.btn-title {}
 
 .btn-title {
       margin-right: -8px;
@@ -666,10 +662,10 @@ img {
             box-shadow var(--transition-duration250) var(--timing-function);
 
 
-}
+} */
 
 /* ==================Clients============== */
-.clients-list {
+/* .clients-list {
       display: flex;
       margin: 0;
 
@@ -681,8 +677,6 @@ img {
       display: flex;
       width: 170px;
       height: 90px;
-
-      /* box-sizing: border-box; */
 }
 
 .clients-item:not(:last-child) {
@@ -716,15 +710,16 @@ img {
       border-color: var(--accent-color);
       transition: fill var(--timing-function) var(--transition-duration250),
             border-color var(--timing-function) var(--transition-duration250);
-}
+} */
 
-.container.footer .logo {
-      color: var(--primary-white-color);
 
-}
 
 /* =================== Footer =================== */
-.section.footer {
+/* .container.footer .logo {
+      color: var(--primary-white-color);
+
+} */
+/* .section.footer {
       padding-top: 0;
 }
 
@@ -816,17 +811,17 @@ img {
 .social-icon {
       fill: var(--primary-white-color);
 
-}
+} */
 
-.container-footer-form {
+/* .container-footer-form {
       margin-top: 72px;
       margin-left: 94px;
 
 
 
-}
+} */
 
-.subscription-title {
+/* .subscription-title {
       margin-top: 0;
       margin-bottom: 20px;
       font-family: Roboto;
@@ -905,7 +900,7 @@ img {
       font-size: 16px;
       line-height: 20px;
       letter-spacing: 0.03em;
-}
+} */
 
 
 /* ================= PORTFOLIO ========== */
@@ -915,7 +910,7 @@ img {
 /* ====================Portfolio============= */
 
 
-.portfolio-heading {
+/* .portfolio-heading {
       color: var(--primary-text-color);
       font-size: 18px;
       font-weight: 700;
@@ -1024,14 +1019,14 @@ img {
       font-size: 18px;
       line-height: 28px;
       letter-spacing: 0.03em;
-}
+} */
 
 /* ---------------------------- */
 
 
 
 /* ===========MODAL=========== */
-.backdrop {
+/* .backdrop {
       position: fixed;
       top: 0;
       left: 0;
@@ -1116,7 +1111,7 @@ img {
       display: block;
 }
 
-.btn-form-icon {
+.form-icon {
       position: absolute;
       top: 50%;
       left: 12px;
@@ -1126,7 +1121,7 @@ img {
 
 }
 
-.field-input:focus+ .btn-form-icon {
+.field-input:focus+ .form-icon {
       fill: var(--accent-color);
       transition: color var(--timing-function) var(--transition-duration250);
 }
@@ -1216,9 +1211,9 @@ img {
      
 
       color: #2196F3;
-}
+} */
 
-.btn-close {
+/* .btn-close {
       position: absolute;
       top: 8px;
       right: 8px;
@@ -1246,9 +1241,9 @@ img {
 .btn-close:focus .btn-close-icon {
       fill: var(--accent-color);
       transition: fill var(--timing-function) var(--transition-duration250);
-}
+} */
 
-.modal p {
+/* .modal p {
       margin-top: 0;
       margin-bottom: 12px;
       font-family: Roboto;
@@ -1307,7 +1302,7 @@ img {
 .btn-submit:focus {
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
       transition: box-shadow var(--transition-duration250) var(--timing-function);
-}
+} */
 
 /* Устанавливает рамку */
 border: 2px solid #2196F3;
