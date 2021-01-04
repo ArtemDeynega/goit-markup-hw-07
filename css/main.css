@@ -1415,6 +1415,19 @@ img {
           align-items: center;
 }
 
+.comand__section-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: #212121;
+}
+
 .section.receprion {
   width: 1170px;
   padding-top: 0px;
@@ -1422,7 +1435,7 @@ img {
   margin: 0 auto;
 }
 
-.receprion__csection-title {
+.receprion__section-title {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -1440,6 +1453,19 @@ img {
   display: -ms-flexbox;
   display: flex;
   margin: 0;
+}
+
+.clients__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: #212121;
 }
 
 .clients-item {
