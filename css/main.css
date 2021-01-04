@@ -39,6 +39,13 @@
   --backdrop-color: rgba(0, 0, 0, 0.5);
 }
 
+body {
+  font-family: Roboto;
+  font-size: 20px;
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
 *,
 *::before,
 *::after {
@@ -1413,6 +1420,19 @@ img {
   padding-top: 0px;
   padding-bottom: 94px;
   margin: 0 auto;
+}
+
+.receprion__csection-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: #212121;
 }
 
 .clients-list {
