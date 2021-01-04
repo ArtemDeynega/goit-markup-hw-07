@@ -73,10 +73,14 @@
 }
 
 
-.section-aside .section-aside-list {
-    display: flex;
-    flex: wrap;
-    width: 270px;
+.section-aside  {
+    & .section-aside-list {
+        display: flex;
+        flex: wrap;
+        width: 270px;
+
+    }
+    
 
 
 }
@@ -117,10 +121,13 @@
 
 }
 
-.section-aside .section-aside-list {
+.section-aside  {
+    & .section-aside-list {
+        width: 270px;
+        flex-wrap: wrap;
+    }
 
-    width: 270px;
-    flex-wrap: wrap;
+    
 
 
 }

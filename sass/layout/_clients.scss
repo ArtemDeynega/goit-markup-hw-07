@@ -26,8 +26,11 @@
     height: 90px;
 }
 
-.clients-item:not(:last-child) {
-    margin-right: 30px;
+.clients-item {
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+    
 }
 
 .clients-link {
@@ -49,12 +52,33 @@
 
 }
 
-.clients-link:focus,
-.clients-link:hover,
-.clients-link:focus .clients-icon,
-.clients-link:hover .clients-icon {
-    fill: var(--accent-color);
-    border-color: var(--accent-color);
-    transition: fill var(--timing-function) var(--transition-duration250),
+.clients-link {
+    &:focus {
+        fill: var(--accent-color);
+        border-color: var(--accent-color);
+        transition: fill var(--timing-function) var(--transition-duration250),
         border-color var(--timing-function) var(--transition-duration250);
+    }
+    &:hover {
+        fill: var(--accent-color);
+        border-color: var(--accent-color);
+        transition: fill var(--timing-function) var(--transition-duration250),
+        border-color var(--timing-function) var(--transition-duration250);
+
+    }
+    &:focus .clients-icon {
+        fill: var(--accent-color);
+        border-color: var(--accent-color);
+        transition: fill var(--timing-function) var(--transition-duration250),
+        border-color var(--timing-function) var(--transition-duration250);
+    }
+
+    &:hover .clients-icon {
+        fill: var(--accent-color);
+        border-color: var(--accent-color);
+        transition: fill var(--timing-function) var(--transition-duration250),
+        border-color var(--timing-function) var(--transition-duration250);
+    }
+
+    
 }

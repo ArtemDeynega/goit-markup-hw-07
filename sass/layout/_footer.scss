@@ -1,9 +1,15 @@
 .section.footer {
-    padding-top: 0;
+    &.footer {
+        padding-top: 0;
+    }
+    
 }
 
-.container.footer {
-    display: flex;
+.container {
+    &.footer {
+        display: flex;
+    }
+    
 }
 
 .container-footer-info {
@@ -27,31 +33,54 @@
     letter-spacing: 0.03em
 }
 
-.footer.addres {
-    padding-top: 20px;
-    padding-bottom: 9px;
+.footer{
+    &.addres {
+        padding-top: 20px;
+        padding-bottom: 9px;
+    }
+    
 }
 
-.address-mail.footer,
-.address-tel.footer {
-    display: inline;
+.address-mail{
+    &.footer {
+        display: inline;
 
-    margin-left: 0px;
-    color: rgba(255, 255, 255, 0.6);
+        margin-left: 0px;
+        color: rgba(255, 255, 255, 0.6);
+
+    }
+    
 
 }
+.address-tel {
+    &.footer {
+        display: inline;
 
-.address-tel.footer {
-    display: flex;
-    padding-top: 9px;
+        margin-left: 0px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+}
+.address-tel{
+    &.footer {
+        display: flex;
+        padding-top: 9px;
+    }
+    
 }
 
-.footer .section-aside-subtitle {
-    color: var(--primary-white-color);
+.footer {
+    & .section-aside-subtitle {
+        color: var(--primary-white-color);
+    }
+    
 }
 
-.footer.section-aside-subtitle {
-    padding-top: 0;
+.footer {
+    &.section-aside-subtitle {
+        padding-top: 0;
+    }
+    
 }
 
 .container-footer-social {
@@ -72,10 +101,18 @@
     align-items: center;
 }
 
-.social-link:focus,
-.social-link:hover {
-    background-color: var(--accent-color);
-    transition: background-color var(--transition-duration250) var(--timing-function);
+.social-link {
+    &:focus {
+        background-color: var(--accent-color);
+        transition: background-color var(--transition-duration250) var(--timing-function);
+
+    }
+    &:hover {
+        background-color: var(--accent-color);
+        transition: background-color var(--transition-duration250) var(--timing-function);
+
+    }
+    
 }
 
 .social-link-title {
@@ -83,8 +120,12 @@
     padding-top: 20px;
 }
 
-.social-link-title:not(:last-child) {
-    margin-right: 10px;
+.social-link-title {
+    &:not(:last-child) {
+        margin-right: 10px;
+
+    }
+    
 }
 
 .social-icon {

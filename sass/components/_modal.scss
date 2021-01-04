@@ -12,10 +12,13 @@
     transition: opacity var(--transition-duration250) var(--timing-function);
 }
 
-.backdrop.is-hidden {
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity var(--transition-duration250) var(--timing-function);
+.backdrop {
+    &.is-hidden {
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity var(--transition-duration250) var(--timing-function);
+    }
+    
 }
 
 .modal {
@@ -73,8 +76,11 @@
 
 
 
-.form-field:not(:last-child) {
-    margin-bottom: 10px;
+.form-field {
+    &:not(:last-child) {
+            margin-bottom: 10px;
+    }
+
 }
 
 
@@ -127,11 +133,21 @@
 }
 
 
-.field-input:focus,
-.modal-form-message:focus {
-    outline: none;
-    border: 1px solid var(--accent-color);
-    transition: border var(--timing-function) var(--transition-duration250);
+.field-input {
+    &:focus {
+          outline: none;
+          border: 1px solid var(--accent-color);
+          transition: border var(--timing-function) var(--transition-duration250);
+    }
+  
+}
+.modal-form-message {
+    &:focus {
+                  outline: none;
+                  border: 1px solid var(--accent-color);
+                  transition: border var(--timing-function) var(--transition-duration250);
+
+    }
 }
 
 .field-label-policy {
@@ -147,16 +163,20 @@
     color: #757575;
 }
 
-.field-label-policy::before {
-    content: " ";
-    display: inline-block;
+.field-label-policy{
+    &::before {
+            content: " ";
+            display: inline-block;
 
-    width: 16px;
-    height: 15px;
-    border: 1px solid #212121;
-    border-radius: 2px;
+            width: 16px;
+            height: 15px;
+            border: 1px solid #212121;
+            border-radius: 2px;
 
-    margin-right: 7px;
+            margin-right: 7px;
+
+    }
+
 
 }
 
@@ -201,18 +221,24 @@
 
 }
 
-.form-field.box {
+.form-field {
+    &.box {
     margin-top: 20px;
     margin-bottom: 30px;
+    }
+
 }
 
-.field-label.policy {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
+.field-label{
+    &.policy {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.03em;
+    }
+
 
 }
 
@@ -243,8 +269,10 @@
 
 }
 
-.btn-submit:hover,
-.btn-submit:focus {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    transition: box-shadow var(--transition-duration250) var(--timing-function);
+.btn-submit {
+    &:hover, &:focus {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            transition: box-shadow var(--transition-duration250) var(--timing-function);
+    }
+
 }

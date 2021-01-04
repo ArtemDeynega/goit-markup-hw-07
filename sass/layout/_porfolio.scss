@@ -55,11 +55,18 @@
 
 
 
-.porfolio-link:hover,
-.porfolio-link:focus {
-    display: block;
-    box-shadow: var(--shadow-portfolio-products);
-    transition: box-shadow var(--timing-function) var(--transition-duration250);
+.porfolio-link{
+    &:hover {
+         display: block;
+         box-shadow: var(--shadow-portfolio-products);
+         transition: box-shadow var(--timing-function) var(--transition-duration250);
+    }
+    &:focus {
+         display: block;
+         box-shadow: var(--shadow-portfolio-products);
+         transition: box-shadow var(--timing-function) var(--transition-duration250);
+    }
+   
 
 }
 
@@ -93,9 +100,14 @@
 
 }
 
-.porfolio-link:hover .product-actions,
-.porfolio-link:focus .product-actions {
-    transform: translateY(0);
+.porfolio-link{
+    &:hover .product-actions{
+        transform: translateY(0);
+    }
+    &:focus .product-actions{
+        transform: translateY(0);
+    }
+    
 
 }
 

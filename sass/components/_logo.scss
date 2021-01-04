@@ -15,7 +15,10 @@
 .logo-accent {
     color: var(--accent-color);
 }
-.container.footer .logo {
-    color: var(--primary-white-color);
+.container{
+    &.footer .logo {
+        color: var(--primary-white-color);
+    }
+    
 
 }
