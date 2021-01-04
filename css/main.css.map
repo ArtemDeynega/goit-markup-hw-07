@@ -6,7 +6,7 @@
         "../sass/utils/_visualy-hidden.scss",
         "../sass/utils/_variables.scss",
         "../sass/utils/_before-after.scss",
-        "../sass/base/_resetrcss.scss",
+        "../sass/base/_resetcss.scss",
         "../sass/base/_normalise.scss",
         "../sass/base/_common.scss",
         "../sass/base/_container.scss",
