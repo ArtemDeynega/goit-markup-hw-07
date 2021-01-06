@@ -1694,6 +1694,7 @@ img {
 
 .section.footer.footer {
   padding-top: 0;
+  padding-bottom: 60px;
 }
 
 .container.footer {
@@ -1731,12 +1732,14 @@ img {
   display: inline;
   margin-left: 0px;
   color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 0px;
 }
 
 .address-tel.footer {
   display: inline;
   margin-left: 0px;
   color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 0px;
 }
 
 .address-tel.footer {
