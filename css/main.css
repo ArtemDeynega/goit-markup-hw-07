@@ -10,40 +10,11 @@
   overflow: hidden;
 }
 
-:root {
-  --hero-background-color: rgba(47, 48, 58, 0.4);
-  --primary-text-color: #212121;
-  --background-footer-color: #2F303A;
-  --background-color-section: #010203;
-  --title-text-color: #757575;
-  --accent-color: #2196F3;
-  --primary-white-color: #FFFF;
-  --secondary-background-color: #F5F4FA;
-  --border-color-white: #EEEEEE;
-  --border-clients-color: #AFB1B8;
-  --icon-color2: #AFB1B8;
-  --card-set-gap: -20px;
-  --icon-color1: rgba(175, 177, 184, 1);
-  --adress-icon: #757575;
-  --product-action-color: rgba(33, 150, 243, 0.9);
-  --product-text-action: rgba(255, 255, 255, 1);
-  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-duration250: 250ms;
-  --background-color-aside: rgba(47, 48, 58, 0.8);
-  --shadow-portfolio-products: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
-        0px 4px 4px 0px rgba(0, 0, 0, 0.06),
-        0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-  --shadow-btn-portfolio: 0px 3px 1px rgba(0, 0, 0, 0.1),
-        0px 1px 2px rgba(0, 0, 0, 0.08),
-        0px 2px 2px rgba(0, 0, 0, 0.12);
-  --backdrop-color: rgba(0, 0, 0, 0.5);
-}
-
 body {
   font-family: Roboto;
   font-size: 20px;
-  background-color: var(--primary-white-color);
-  color: var(--primary-text-color);
+  background-color: #FFFF;
+  color: #212121;
 }
 
 *,
@@ -532,8 +503,8 @@ template {
 .body {
   font-family: Roboto;
   font-size: 20px;
-  background-color: var(--primary-white-color);
-  color: var(--primary-text-color);
+  background-color: #FFFF;
+  color: #212121;
 }
 
 a {
@@ -576,8 +547,8 @@ img {
 }
 
 .btn-primary {
-  color: var(--secondary-background-color);
-  background-color: var(--accent-color);
+  color: #F5F4FA;
+  background-color: #2196F3;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-style: normal;
@@ -594,7 +565,7 @@ img {
 }
 
 .button-porfolio {
-  color: var(--primary-text-color);
+  color: #212121;
   display: inline-block;
   font-style: normal;
   font-weight: 500;
@@ -617,14 +588,14 @@ img {
 }
 
 .button-porfolio:hover, .button-porfolio:focus {
-  background-color: var(--accent-color);
-  color: var(--secondary-background-color);
-  -webkit-box-shadow: var(--shadow-btn-portfolio);
-          box-shadow: var(--shadow-btn-portfolio);
-  -webkit-transition: background-color var(--transition-duration250) var(--timing-function), color var(--transition-duration250) var(--timing-function), -webkit-box-shadow var(--transition-duration250) var(--timing-function);
-  transition: background-color var(--transition-duration250) var(--timing-function), color var(--transition-duration250) var(--timing-function), -webkit-box-shadow var(--transition-duration250) var(--timing-function);
-  transition: background-color var(--transition-duration250) var(--timing-function), color var(--transition-duration250) var(--timing-function), box-shadow var(--transition-duration250) var(--timing-function);
-  transition: background-color var(--transition-duration250) var(--timing-function), color var(--transition-duration250) var(--timing-function), box-shadow var(--transition-duration250) var(--timing-function), -webkit-box-shadow var(--transition-duration250) var(--timing-function);
+  background-color: #2196F3;
+  color: #F5F4FA;
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-close {
@@ -643,7 +614,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 50%;
-  background-color: var(--primary-white-color);
+  background-color: #FFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
   outline: none;
@@ -655,17 +626,17 @@ img {
 
 .btn-close:hover .btn-close-icon,
 .btn-close:focus .btn-close-icon {
-  fill: var(--accent-color);
-  -webkit-transition: fill var(--timing-function) var(--transition-duration250);
-  transition: fill var(--timing-function) var(--transition-duration250);
+  fill: #2196F3;
+  -webkit-transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .btn-submit {
   width: 200px;
   height: 50px;
   margin: 0;
-  color: var(--primary-white-color);
-  background: var(--accent-color);
+  color: #FFFF;
+  background: #2196F3;
   outline: none;
   border-radius: 4px;
   border: inherit;
@@ -682,10 +653,10 @@ img {
 .btn-submit:hover, .btn-submit:focus {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  -webkit-transition: -webkit-box-shadow var(--transition-duration250) var(--timing-function);
-  transition: -webkit-box-shadow var(--transition-duration250) var(--timing-function);
-  transition: box-shadow var(--transition-duration250) var(--timing-function);
-  transition: box-shadow var(--transition-duration250) var(--timing-function), -webkit-box-shadow var(--transition-duration250) var(--timing-function);
+  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-portfolio,
@@ -697,7 +668,7 @@ img {
 }
 
 .logo {
-  color: var(--primary-text-color);
+  color: #212121;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -708,11 +679,11 @@ img {
 }
 
 .logo-accent {
-  color: var(--accent-color);
+  color: #2196F3;
 }
 
 .container.footer .logo {
-  color: var(--primary-white-color);
+  color: #FFFF;
 }
 
 .header .address {
@@ -751,7 +722,7 @@ img {
 }
 
 .adress-icon {
-  fill: var(--adress-icon);
+  fill: #757575;
   margin-right: 10px;
 }
 
@@ -759,7 +730,7 @@ img {
 .address-tel:focus .adress-icon,
 .address-mail:hover .adress-icon,
 .address-mail:focus .adress-icon {
-  fill: var(--accent-color);
+  fill: #2196F3;
 }
 
 .address-mail,
@@ -772,14 +743,14 @@ img {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--adress-icon);
+  color: #757575;
 }
 
 .site-nav-link {
   display: inline-block;
   padding-bottom: 32px;
   margin: 0;
-  color: var(--primary-text-color);
+  color: #212121;
   font-size: 14px;
   font-weight: 500;
   font-style: normal;
@@ -792,44 +763,44 @@ img {
 }
 
 .site-nav-link:focus {
-  color: var(--accent-color);
-  -webkit-transition: color var(--transition-duration250) var(--timing-function);
-  transition: color var(--transition-duration250) var(--timing-function);
+  color: #2196F3;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav-link:hover {
-  color: var(--accent-color);
-  -webkit-transition: color var(--transition-duration250) var(--timing-function);
-  transition: color var(--transition-duration250) var(--timing-function);
+  color: #2196F3;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-mail:focus {
-  color: var(--accent-color);
-  -webkit-transition: color var(--transition-duration250) var(--timing-function);
-  transition: color var(--transition-duration250) var(--timing-function);
+  color: #2196F3;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-mail:hover {
-  color: var(--accent-color);
-  -webkit-transition: color var(--transition-duration250) var(--timing-function);
-  transition: color var(--transition-duration250) var(--timing-function);
+  color: #2196F3;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-tel:focus {
-  color: var(--accent-color);
-  -webkit-transition: color var(--transition-duration250) var(--timing-function);
-  transition: color var(--transition-duration250) var(--timing-function);
+  color: #2196F3;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-tel:hover {
-  color: var(--accent-color);
-  -webkit-transition: color var(--transition-duration250) var(--timing-function);
-  transition: color var(--transition-duration250) var(--timing-function);
+  color: #2196F3;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .site-nav-link.current {
   position: relative;
-  color: var(--accent-color);
+  color: #2196F3;
 }
 
 .site-nav-link.current::after {
@@ -842,7 +813,7 @@ img {
   left: 0;
   bottom: 0;
   border-radius: 2px;
-  background-color: var(--accent-color);
+  background-color: #2196F3;
 }
 
 .icon-antenna::before {
@@ -886,26 +857,26 @@ img {
 }
 
 .comands-link-item:focus {
-  background-color: var(--accent-color);
-  -webkit-transition: background-color var(--timing-function) var(--transition-duration250);
-  transition: background-color var(--timing-function) var(--transition-duration250);
+  background-color: #2196F3;
+  -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .comands-link-item:hover {
-  background-color: var(--accent-color);
-  -webkit-transition: background-color var(--timing-function) var(--transition-duration250);
-  transition: background-color var(--timing-function) var(--transition-duration250);
+  background-color: #2196F3;
+  -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .comands-link-item:focus .command-social-icon,
 .comands-link-item:hover .command-social-icon {
-  fill: var(--primary-white-color);
-  -webkit-transition: fill var(--timing-function) var(--transition-duration250);
-  transition: fill var(--timing-function) var(--transition-duration250);
+  fill: #FFFF;
+  -webkit-transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .command-social-icon {
-  fill: var(--border-clients-color);
+  fill: #AFB1B8;
 }
 
 .container-footer-form {
@@ -978,7 +949,7 @@ img {
   width: 200px;
   height: 50px;
   margin-left: 20px;
-  background: var(--accent-color);
+  background: #2196F3;
   border-radius: 4px;
   border: inherit;
   font-family: Roboto;
@@ -986,7 +957,7 @@ img {
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
-  color: var(--primary-white-color);
+  color: #FFFF;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -996,7 +967,7 @@ img {
 }
 
 .subscription-icon {
-  fill: var(--primary-white-color);
+  fill: #FFFF;
   margin-left: 10px;
 }
 
@@ -1043,17 +1014,17 @@ img {
   width: 100%;
   height: 100%;
   z-index: 100;
-  background-color: var(--backdrop-color);
+  background-color: rgba(0, 0, 0, 0.5);
   opacity: 1;
-  -webkit-transition: opacity var(--transition-duration250) var(--timing-function);
-  transition: opacity var(--transition-duration250) var(--timing-function);
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
-  -webkit-transition: opacity var(--transition-duration250) var(--timing-function);
-  transition: opacity var(--transition-duration250) var(--timing-function);
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -1124,9 +1095,9 @@ img {
 }
 
 .field-input:focus + .form-icon {
-  fill: var(--accent-color);
-  -webkit-transition: color var(--timing-function) var(--transition-duration250);
-  transition: color var(--timing-function) var(--transition-duration250);
+  fill: #2196F3;
+  -webkit-transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .modal-form-message {
@@ -1206,16 +1177,16 @@ img {
 
 .field-input:focus {
   outline: none;
-  border: 1px solid var(--accent-color);
-  -webkit-transition: border var(--timing-function) var(--transition-duration250);
-  transition: border var(--timing-function) var(--transition-duration250);
+  border: 1px solid #2196F3;
+  -webkit-transition: border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .modal-form-message:focus {
   outline: none;
-  border: 1px solid var(--accent-color);
-  -webkit-transition: border var(--timing-function) var(--transition-duration250);
-  transition: border var(--timing-function) var(--transition-duration250);
+  border: 1px solid #2196F3;
+  -webkit-transition: border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .field-label-policy {
@@ -1244,12 +1215,12 @@ img {
 }
 
 .input-policy:checked + .field-label-policy::before {
-  border: 1px solid var(--accent-color);
-  background-color: var(--accent-color);
+  border: 1px solid #2196F3;
+  background-color: #2196F3;
   background-repeat: no-repeat;
   background-image: url("../image/cheked-icon.svg");
-  -webkit-transition: var(--accent-color) var(--timing-function) var(--transition-duration250), background-image var(--timing-function) var(--transition-duration250);
-  transition: var(--accent-color) var(--timing-function) var(--transition-duration250), background-image var(--timing-function) var(--transition-duration250);
+  -webkit-transition: #2196F3 cubic-bezier(0.4, 0, 0.2, 1) 250ms, background-image cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: #2196F3 cubic-bezier(0.4, 0, 0.2, 1) 250ms, background-image cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .contract {
@@ -1293,8 +1264,8 @@ img {
   width: 200px;
   height: 50px;
   margin: 0;
-  color: var(--primary-white-color);
-  background: var(--accent-color);
+  color: #FFFF;
+  background: #2196F3;
   outline: none;
   border-radius: 4px;
   border: inherit;
@@ -1311,16 +1282,16 @@ img {
 .btn-submit:hover, .btn-submit:focus {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  -webkit-transition: -webkit-box-shadow var(--transition-duration250) var(--timing-function);
-  transition: -webkit-box-shadow var(--transition-duration250) var(--timing-function);
-  transition: box-shadow var(--transition-duration250) var(--timing-function);
-  transition: box-shadow var(--transition-duration250) var(--timing-function), -webkit-box-shadow var(--transition-duration250) var(--timing-function);
+  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header {
   padding-top: 32px;
   padding-bottom: 0;
-  border-bottom: 1px solid var(--secondary-background-color);
+  border-bottom: 1px solid #F5F4FA;
 }
 
 .heder {
@@ -1377,7 +1348,7 @@ img {
   letter-spacing: 0.06em;
   margin-top: 0px;
   margin-bottom: 30px;
-  color: var(--secondary-background-color);
+  color: #F5F4FA;
 }
 
 .section-aside-subtitle {
@@ -1385,7 +1356,7 @@ img {
   font-size: 14px;
   font-weight: 700;
   font-style: normal;
-  color: var(--primary-text-color);
+  color: #212121;
   line-height: .875;
   text-transform: uppercase;
   margin-top: 0px;
@@ -1396,7 +1367,7 @@ img {
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
-  color: var(--title-text-color);
+  color: #757575;
   line-height: 24px;
   margin-top: 0px;
 }
@@ -1437,7 +1408,7 @@ img {
   padding-top: 27px;
   bottom: 0;
   left: 0;
-  background-color: var(--background-color-aside);
+  background-color: rgba(47, 48, 58, 0.8);
   cursor: pointer;
 }
 
@@ -1451,7 +1422,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-white-color);
+  color: #FFFF;
 }
 
 .section-aside .section-aside-list {
@@ -1507,7 +1478,7 @@ img {
 .section.command {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: var(--secondary-background-color);
+  background-color: #F5F4FA;
 }
 
 .command-title {
@@ -1519,7 +1490,7 @@ img {
 }
 
 .command-title-list {
-  background-color: var(--primary-white-color);
+  background-color: #FFFF;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -1543,7 +1514,7 @@ img {
   font-size: 16px;
   font-weight: 500;
   font-style: normal;
-  color: var(--primary-text-color);
+  color: #212121;
   line-height: .842;
   margin-top: 0px;
   margin-bottom: 10px;
@@ -1554,7 +1525,7 @@ img {
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
-  color: var(--title-text-color);
+  color: #757575;
   line-height: .842;
   margin-top: 0px;
   margin-bottom: 16px;
@@ -1657,42 +1628,42 @@ img {
           align-items: center;
   border: 1px solid;
   border-radius: 4px;
-  border-color: var(--border-clients-color);
+  border-color: #AFB1B8;
 }
 
 .clients-icon {
-  fill: var(--icon-color1);
+  fill: #afb1b8;
 }
 
 .clients-link:focus {
-  fill: var(--accent-color);
-  border-color: var(--accent-color);
-  -webkit-transition: fill var(--timing-function) var(--transition-duration250), border-color var(--timing-function) var(--transition-duration250);
-  transition: fill var(--timing-function) var(--transition-duration250), border-color var(--timing-function) var(--transition-duration250);
+  fill: #2196F3;
+  border-color: #2196F3;
+  -webkit-transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms, border-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms, border-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .clients-link:hover {
-  fill: var(--accent-color);
-  border-color: var(--accent-color);
-  -webkit-transition: fill var(--timing-function) var(--transition-duration250), border-color var(--timing-function) var(--transition-duration250);
-  transition: fill var(--timing-function) var(--transition-duration250), border-color var(--timing-function) var(--transition-duration250);
+  fill: #2196F3;
+  border-color: #2196F3;
+  -webkit-transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms, border-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms, border-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .clients-link:focus .clients-icon {
-  fill: var(--accent-color);
-  border-color: var(--accent-color);
-  -webkit-transition: fill var(--timing-function) var(--transition-duration250), border-color var(--timing-function) var(--transition-duration250);
-  transition: fill var(--timing-function) var(--transition-duration250), border-color var(--timing-function) var(--transition-duration250);
+  fill: #2196F3;
+  border-color: #2196F3;
+  -webkit-transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms, border-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms, border-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .clients-link:hover .clients-icon {
-  fill: var(--accent-color);
-  border-color: var(--accent-color);
-  -webkit-transition: fill var(--timing-function) var(--transition-duration250), border-color var(--timing-function) var(--transition-duration250);
-  transition: fill var(--timing-function) var(--transition-duration250), border-color var(--timing-function) var(--transition-duration250);
+  fill: #2196F3;
+  border-color: #2196F3;
+  -webkit-transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms, border-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms, border-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
-.section.footer.footer {
+.section.footer {
   padding-top: 0;
   padding-bottom: 60px;
 }
@@ -1710,11 +1681,11 @@ img {
 }
 
 .footer {
-  background-color: var(--background-footer-color);
+  background-color: #2F303A;
 }
 
 .addres-geo {
-  color: var(--primary-white-color);
+  color: #FFFF;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -1750,7 +1721,7 @@ img {
 }
 
 .footer .section-aside-subtitle {
-  color: var(--primary-white-color);
+  color: #FFFF;
 }
 
 .footer.section-aside-subtitle {
@@ -1784,15 +1755,15 @@ img {
 }
 
 .social-link:focus {
-  background-color: var(--accent-color);
-  -webkit-transition: background-color var(--transition-duration250) var(--timing-function);
-  transition: background-color var(--transition-duration250) var(--timing-function);
+  background-color: #2196F3;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover {
-  background-color: var(--accent-color);
-  -webkit-transition: background-color var(--transition-duration250) var(--timing-function);
-  transition: background-color var(--transition-duration250) var(--timing-function);
+  background-color: #2196F3;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link-title {
@@ -1805,11 +1776,11 @@ img {
 }
 
 .social-icon {
-  fill: var(--primary-white-color);
+  fill: #FFFF;
 }
 
 .portfolio-heading {
-  color: var(--primary-text-color);
+  color: #212121;
   font-size: 18px;
   font-weight: 700;
   font-style: normal;
@@ -1820,7 +1791,7 @@ img {
 }
 
 .portfolio-text {
-  color: var(--title-text-color);
+  color: #757575;
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
@@ -1845,7 +1816,7 @@ img {
   margin-left: 30px;
   -ms-flex-preferred-size: calc(100% / 3 - 30px);
       flex-basis: calc(100% / 3 - 30px);
-  border: 1px solid var(--border-color-white);
+  border: 1px solid #EEEEEE;
 }
 
 .img-porfolio {
@@ -1859,22 +1830,22 @@ img {
 
 .porfolio-link:hover {
   display: block;
-  -webkit-box-shadow: var(--shadow-portfolio-products);
-          box-shadow: var(--shadow-portfolio-products);
-  -webkit-transition: -webkit-box-shadow var(--timing-function) var(--transition-duration250);
-  transition: -webkit-box-shadow var(--timing-function) var(--transition-duration250);
-  transition: box-shadow var(--timing-function) var(--transition-duration250);
-  transition: box-shadow var(--timing-function) var(--transition-duration250), -webkit-box-shadow var(--timing-function) var(--transition-duration250);
+  -webkit-box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+          box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  -webkit-transition: -webkit-box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: -webkit-box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms, -webkit-box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .porfolio-link:focus {
   display: block;
-  -webkit-box-shadow: var(--shadow-portfolio-products);
-          box-shadow: var(--shadow-portfolio-products);
-  -webkit-transition: -webkit-box-shadow var(--timing-function) var(--transition-duration250);
-  transition: -webkit-box-shadow var(--timing-function) var(--transition-duration250);
-  transition: box-shadow var(--timing-function) var(--transition-duration250);
-  transition: box-shadow var(--timing-function) var(--transition-duration250), -webkit-box-shadow var(--timing-function) var(--transition-duration250);
+  -webkit-box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+          box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  -webkit-transition: -webkit-box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: -webkit-box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms, -webkit-box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .portfolio-thumb {
@@ -1898,14 +1869,14 @@ img {
   top: 0;
   left: 0;
   padding: 64px 24px;
-  background-color: var(--product-action-color);
-  color: var(--product-text-action);
+  background-color: rgba(33, 150, 243, 0.9);
+  color: white;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
-  -webkit-transition: -webkit-transform var(--timing-function) var(--transition-duration250);
-  transition: -webkit-transform var(--timing-function) var(--transition-duration250);
-  transition: transform var(--timing-function) var(--transition-duration250);
-  transition: transform var(--timing-function) var(--transition-duration250), -webkit-transform var(--timing-function) var(--transition-duration250);
+  -webkit-transition: -webkit-transform cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: -webkit-transform cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: transform cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: transform cubic-bezier(0.4, 0, 0.2, 1) 250ms, -webkit-transform cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .porfolio-link:hover .product-actions {

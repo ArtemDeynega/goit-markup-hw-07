@@ -17,13 +17,13 @@
 
 .comands-link-item {
     &:focus {
-            background-color: var(--accent-color);
-            transition: background-color var(--timing-function) var(--transition-duration250);
+            background-color: $accent-color;
+            transition: background-color $timing-function $transition-duration250;
 
     }
     &:hover {
-            background-color: var(--accent-color);
-            transition: background-color var(--timing-function) var(--transition-duration250);
+            background-color: $accent-color;
+            transition: background-color $timing-function $transition-duration250;
 
     }
 
@@ -33,13 +33,13 @@
 .comands-link-item{
     &:focus .command-social-icon,
     &:hover .command-social-icon {
-            fill: var(--primary-white-color);
-            transition: fill var(--timing-function) var(--transition-duration250);
+            fill: $primary-white-color;
+            transition: fill $timing-function $transition-duration250;
 
     }
 
 }
 
 .command-social-icon {
-    fill: var(--border-clients-color);
+    fill: $border-clients-color;
 }

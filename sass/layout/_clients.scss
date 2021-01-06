@@ -41,43 +41,43 @@
     align-items: center;
     border: 1px solid;
     border-radius: 4px;
-    border-color: var(--border-clients-color);
+    border-color: $border-clients-color;
 
 }
 
 .clients-icon {
 
-    fill: var(--icon-color1);
+    fill: $icon-color1;
 
 
 }
 
 .clients-link {
     &:focus {
-        fill: var(--accent-color);
-        border-color: var(--accent-color);
-        transition: fill var(--timing-function) var(--transition-duration250),
-        border-color var(--timing-function) var(--transition-duration250);
+        fill: $accent-color;
+        border-color: $accent-color;
+        transition: fill $timing-function $transition-duration250,
+        border-color $timing-function $transition-duration250;
     }
     &:hover {
-        fill: var(--accent-color);
-        border-color: var(--accent-color);
-        transition: fill var(--timing-function) var(--transition-duration250),
-        border-color var(--timing-function) var(--transition-duration250);
+        fill: $accent-color;
+        border-color: $accent-color;
+        transition: fill $timing-function $transition-duration250,
+        border-color $timing-function $transition-duration250;
 
     }
     &:focus .clients-icon {
-        fill: var(--accent-color);
-        border-color: var(--accent-color);
-        transition: fill var(--timing-function) var(--transition-duration250),
-        border-color var(--timing-function) var(--transition-duration250);
+        fill: $accent-color;
+        border-color: $accent-color;
+        transition: fill $timing-function $transition-duration250,
+        border-color $timing-function $transition-duration250;
     }
 
     &:hover .clients-icon {
-        fill: var(--accent-color);
-        border-color: var(--accent-color);
-        transition: fill var(--timing-function) var(--transition-duration250),
-        border-color var(--timing-function) var(--transition-duration250);
+        fill: $accent-color;
+        border-color: $accent-color;
+        transition: fill $timing-function $transition-duration250,
+        border-color $timing-function $transition-duration250;
     }
 
     

@@ -1,4 +1,4 @@
-.section.footer {
+.section {
     &.footer {
         padding-top: 0;
         padding-bottom: 60px;
@@ -17,15 +17,16 @@
     display: block;
     margin-top: 60px;
     margin-right: 70px;
+    
 
 }
 
 .footer {
-    background-color: var(--background-footer-color);
+    background-color: $background-footer-color;
 }
 
 .addres-geo {
-    color: var(--primary-white-color);
+    color: $primary-white-color;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -74,7 +75,7 @@
 
 .footer {
     & .section-aside-subtitle {
-        color: var(--primary-white-color);
+        color: $primary-white-color;
     }
     
 }
@@ -106,13 +107,13 @@
 
 .social-link {
     &:focus {
-        background-color: var(--accent-color);
-        transition: background-color var(--transition-duration250) var(--timing-function);
+        background-color: $accent-color;
+        transition: background-color $transition-duration250 $timing-function;
 
     }
     &:hover {
-        background-color: var(--accent-color);
-        transition: background-color var(--transition-duration250) var(--timing-function);
+        background-color: $accent-color;
+        transition: background-color $transition-duration250 $timing-function;
 
     }
     
@@ -132,6 +133,6 @@
 }
 
 .social-icon {
-    fill: var(--primary-white-color);
+    fill: $primary-white-color;
 
 }

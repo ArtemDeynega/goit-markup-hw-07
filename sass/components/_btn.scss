@@ -19,8 +19,8 @@
 
 .btn-primary {
 
-    color: var(--secondary-background-color);
-    background-color: var(--accent-color);
+    color: $secondary-background-color;
+    background-color: $accent-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     font-style: normal;
     text-align: center;
@@ -42,7 +42,7 @@
 }
 
 .button-porfolio {
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     display: inline-block;
     font-style: normal;
     font-weight: 500;
@@ -70,12 +70,12 @@
 
 .button-porfolio{
     &:hover, &:focus {
-        background-color: var(--accent-color);
-        color: var(--secondary-background-color);
-        box-shadow: var(--shadow-btn-portfolio);
-        transition: background-color var(--transition-duration250) var(--timing-function),
-        color var(--transition-duration250) var(--timing-function),
-        box-shadow var(--transition-duration250) var(--timing-function);
+        background-color: $accent-color;
+        color: $secondary-background-color;
+        box-shadow: $shadow-btn-portfolio;
+        transition: background-color $transition-duration250 $timing-function,
+        color $transition-duration250 $timing-function,
+        box-shadow $transition-duration250 $timing-function;
     }
 
 
@@ -91,7 +91,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background-color: var(--primary-white-color);
+    background-color: $primary-white-color;
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
     outline: none;
@@ -108,8 +108,8 @@
 .btn-close {
     &:hover .btn-close-icon,
     &:focus .btn-close-icon {
-        fill: var(--accent-color);
-        transition: fill var(--timing-function) var(--transition-duration250);
+        fill: $accent-color;
+        transition: fill $timing-function $transition-duration250;
     }
     
 }
@@ -118,8 +118,8 @@
     height: 50px;
     margin: 0;
 
-    color: var(--primary-white-color);
-    background: var(--accent-color);
+    color: $primary-white-color;
+    background: $accent-color;
     outline: none;
 
     border-radius: 4px;
@@ -141,7 +141,7 @@
 .btn-submit {
     &:hover, &:focus {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        transition: box-shadow var(--transition-duration250) var(--timing-function);
+        transition: box-shadow $transition-duration250 $timing-function;
 
     }
     

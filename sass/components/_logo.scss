@@ -1,5 +1,5 @@
 .logo {
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     font-family: Raleway;
 
     font-size: 26px;
@@ -13,11 +13,11 @@
 }
 
 .logo-accent {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 .container{
     &.footer .logo {
-        color: var(--primary-white-color);
+        color: $primary-white-color;
     }
     
 

@@ -54,7 +54,7 @@
     margin-left: 20px;
 
 
-    background: var(--accent-color);
+    background: $accent-color;
 
     border-radius: 4px;
     border: inherit;
@@ -64,7 +64,7 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 30px;
-    color: var(--primary-white-color);
+    color: $primary-white-color;
     justify-content: center;
     align-items: center;
 
@@ -72,7 +72,7 @@
 }
 
 .subscription-icon {
-    fill: var(--primary-white-color);
+    fill: $primary-white-color;
     margin-left: 10px;
 
 

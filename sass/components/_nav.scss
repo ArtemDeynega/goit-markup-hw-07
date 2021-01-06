@@ -29,7 +29,7 @@
 
 
 .adress-icon {
-    fill: var(--adress-icon);
+    fill: $adress-icon;
     margin-right: 10px;
 }
 
@@ -37,7 +37,7 @@
 .address-tel:focus .adress-icon,
 .address-mail:hover .adress-icon,
 .address-mail:focus .adress-icon {
-    fill: var(--accent-color);
+    fill: $accent-color;
 }
 .address-mail,
 .address-tel {
@@ -51,14 +51,14 @@
     letter-spacing: 0.02em;
 
 
-    color: var(--adress-icon);
+    color: $adress-icon;
 }
 
 .site-nav-link {
     display: inline-block;
     padding-bottom: 32px;
     margin: 0;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     font-size: 14px;
     font-weight: 500;
     font-style: normal;
@@ -75,33 +75,33 @@
 
 .site-nav-link {
     &:focus {
-        color: var(--accent-color);
-        transition: color var(--transition-duration250) var(--timing-function);
+        color: $accent-color;
+        transition: color $transition-duration250 $timing-function;
     }
     &:hover {
-        color: var(--accent-color);
-        transition: color var(--transition-duration250) var(--timing-function);
+        color: $accent-color;
+        transition: color $transition-duration250 $timing-function;
     }
 }
 .address-mail{
     &:focus {
-        color: var(--accent-color);
-        transition: color var(--transition-duration250) var(--timing-function);
+        color: $accent-color;
+        transition: color $transition-duration250 $timing-function;
     }
     &:hover {
-        color: var(--accent-color);
-        transition: color var(--transition-duration250) var(--timing-function);
+        color: $accent-color;
+        transition: color $transition-duration250 $timing-function;
     }
 }
 .address-tel {
     &:focus {
-        color: var(--accent-color);
-        transition: color var(--transition-duration250) var(--timing-function);
+        color: $accent-color;
+        transition: color $transition-duration250 $timing-function;
 
     }
     &:hover {
-        color: var(--accent-color);
-        transition: color var(--transition-duration250) var(--timing-function);
+        color: $accent-color;
+        transition: color $transition-duration250 $timing-function;
 
     }
     
@@ -110,7 +110,7 @@
 .site-nav  { 
     & .site-nav-link.current {
         position: relative;
-        color: var(--accent-color);
+        color: $accent-color;
     }
     
 
@@ -129,7 +129,7 @@
             border-radius: 2px;
 
 
-            background-color: var(--accent-color);
+            background-color: $accent-color;
     }
 
 

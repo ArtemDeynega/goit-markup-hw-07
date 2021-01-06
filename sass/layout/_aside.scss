@@ -3,7 +3,7 @@
     font-size: 14px;
     font-weight: 700;
     font-style: normal;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     line-height: .875;
     text-transform: uppercase;
     margin-top: 0px;
@@ -14,7 +14,7 @@
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
-    color: var(--title-text-color);
+    color: $title-text-color;
     line-height: 24px;
     margin-top: 0px;
 }
@@ -48,7 +48,7 @@
     padding-top: 27px;
     bottom: 0;
     left: 0;
-    background-color: var(--background-color-aside);
+    background-color: $background-color-aside;
 
     cursor: pointer;
 
@@ -68,7 +68,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-white-color);
+    color: $primary-white-color;
 
 }
 
