@@ -880,7 +880,7 @@ img {
 }
 
 .container-footer-form {
-  margin-top: 72px;
+  margin-top: 0px;
   margin-left: 94px;
 }
 
@@ -1664,7 +1664,7 @@ img {
 }
 
 .section.footer {
-  padding-top: 0;
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
@@ -1676,7 +1676,7 @@ img {
 
 .container-footer-info {
   display: block;
-  margin-top: 60px;
+  margin-top: 0px;
   margin-right: 70px;
 }
 
@@ -1729,7 +1729,7 @@ img {
 }
 
 .container-footer-social {
-  margin-top: 72px;
+  margin-top: 0px;
 }
 
 .footer-social-link {
